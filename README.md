@@ -58,11 +58,11 @@ Flowchart of the microservice
 ```mermaid
 graph LR
 A(POSTGRE DB) -->B
-B{MICRO SERVICE} -->A
+B((MICRO SERVICE)) -->A
 B -- json  --> C["CLIENT HTTP REQ>RES"]
-C -- json  --> B
-D((PREPAID METER)) --> B
-B --> C
+C -- json  ---> B
+D[PREPAID METER] --> B
+B --> D
 ```
 
 ## Note
