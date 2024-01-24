@@ -1,6 +1,6 @@
 # Prepaid Electricity Meter Microservice
 
-![Prepaid Meter Microservice](microservice_image.png)
+![Prepaid Meter Microservice](prepaid.jpeg)
 
 This microservice is designed to facilitate the management of prepaid electricity meters, allowing for seamless interaction with the meters to send and receive data. Developed by Black, this microservice supports functionalities related to meters, logs, and configurations.
 
