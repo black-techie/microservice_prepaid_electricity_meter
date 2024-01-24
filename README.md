@@ -1,14 +1,23 @@
-Prepaid Electricity Meter Microservice
+# Prepaid Electricity Meter Microservice
+
+![Prepaid Meter Microservice](microservice_image.png)
+
 This microservice is designed to facilitate the management of prepaid electricity meters, allowing for seamless interaction with the meters to send and receive data. Developed by Black, this microservice supports functionalities related to meters, logs, and configurations.
 
-Features
-Meter Management: Access and manage information related to prepaid electricity meters.
-Logging: Record and retrieve logs for tracking meter-related activities.
-Configurations: Configure settings for the microservice.
-Getting Started
+## Features
+
+- **Meter Management**: Access and manage information related to prepaid electricity meters.
+- **Logging**: Record and retrieve logs for tracking meter-related activities.
+- **Configurations**: Configure settings for the microservice.
+
+## Getting Started
+
 To run the microservice locally, follow these steps:
 
-Install the required dependencies by running:
+1. Install the required dependencies by running:
+
+   ```bash
+   pip install -r requirements.txt
 
 bash
 Copy code
